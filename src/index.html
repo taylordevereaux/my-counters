@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>My Counters++</title>
+    <meta name="theme-color" content="#41CFD6">
+    <meta name="twitter:description" content="Count anything and everything">
+    <meta name="twitter:image" content="assets/img/open-graph.png">
+    <meta name="description" content="Count anything and everything">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/img/open-graph.png">
+    <meta name="twitter:title" content="My Counters++">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/logo-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/splash.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/styles.compiled.css">
+    <link rel="stylesheet" href="assets/css/theme.compiled.css">
+</head>
+
+<body><div class="header2 bg-success-gradiant">
+    <div class="">
+        <!-- Header 1 code -->
+        <nav class="navbar navbar-expand-lg h2-nav m-0 p-0">
+            <a class="navbar-brand text-white m-0 p-0 ml-1" href="#">
+                <img 
+                    src="assets/img/header-text.png"
+                    alt="header-icon" />
+            </a>
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header2"
+                aria-controls="header2" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-menu"></span>
+            </button> -->
+            <div class="collapse navbar-collapse hover-dropdown" id="header2">
+                <ul class="navbar-nav">
+                    <!-- <li class="nav-item active"><a class="nav-link" href="#">Home</a></li> -->
+                    <!-- <li class="nav-item dropdown position-relative">
+                        <a class="nav-link dropdown-toggle" href="#" id="h2-dropdown" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Product <i class="icon-arrow-down ml-1 font-12"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li class="divider" role="separator"></li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            <li class="divider" role="separator"></li>
+                            <li><a class="dropdown-item" href="#">One more separated link</a></li>
+                            <li class="dropdown-submenu position-relative"> <a class="dropdown-toggle dropdown-item"
+                                    data-toggle="dropdown" href="#">Dropdown <i
+                                        class="icon-arrow-right float-right mt-1"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li class="dropdown-submenu position-relative"> <a
+                                            class="dropdown-toggle dropdown-item" href="#"
+                                            data-toggle="dropdown">Dropdown <i
+                                                class="icon-arrow-right float-right mt-1"></i></a>
+                                        <ul class="nav navbar-nav dropdown-menu">
+                                            <li class="dropdown-submenu position-relative"> <a
+                                                    class="dropdown-toggle dropdown-item" href="#"
+                                                    data-toggle="dropdown">Dropdown <i
+                                                        class="icon-arrow-right float-right mt-1"></i></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                    <li class="divider" role="separator"></li>
+                                                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                                    <li class="divider" role="separator"></li>
+                                                    <li><a class="dropdown-item" href="#">One more separated link</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li> -->
+                </ul>
+                <!-- <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="icon-bubble"></i> Need help?</a>
+                    </li>
+                    <li class="nav-item active"><a class="nav-link" href="#">Login</a></li>
+                    <li class="nav-item"><a class="btn rounded-pill btn-dark py-2 px-4" href="#">Sign up</a></li>
+                </ul> -->
+            </div>
+        </nav>
+        <!-- End Header 1 code -->
+    </div>
+</div>
+    <div class="m-2 mt-3">
+        <form id="add-counter-form" class="needs-validation" novalidate="">
+            <div class="row">
+                <div class="col d-flex flex-row">
+                    <div class="flex-fill"><input class="form-control" type="text" id="counter-name" placeholder="Add a new counter" name="counter-name" required="">
+                        <div class="invalid-feedback"><span>Counter name is required.</span></div>
+                    </div><button class="btn btn-link" id="add-counter" type="submit" title="Add new counter"><i class="fa fa-plus-circle" style="font-size: 24px;"></i></button>
+                </div>
+            </div>
+        </form>
+        <div class="card-group mt-3" id="counter-list">
+            <div class="card"><img class="card-img-top w-100 d-block">
+                <div class="card-body">
+                    <h4 class="d-flex justify-content-between card-title"><span class="text-light">BBQ</span><span class="text-light">5</span></h4>
+                    <p class="card-text d-none">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                    <div class="d-flex"><button class="btn btn-danger btn-sm" type="button"><i class="fa fa-trash"></i></button>
+                        <div class="d-flex flex-fill justify-content-between ml-1"><button class="btn btn-secondary btn-sm text-center flex-fill" type="button"><i class="fa fa-minus"></i></button><button class="btn btn-primary btn-sm flex-fill ml-1" type="submit"><i class="fa fa-plus"></i></button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card"><img class="card-img-top w-100 d-block">
+                <div class="card-body">
+                    <h4 class="d-flex justify-content-between card-title"><span class="text-light">Poops</span><span class="text-light">48</span></h4>
+                    <p class="card-text d-none">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                    <div class="d-flex"><button class="btn btn-danger btn-sm" type="button"><i class="fa fa-trash"></i></button>
+                        <div class="d-flex flex-fill justify-content-between ml-1"><button class="btn btn-secondary btn-sm text-center flex-fill" type="button"><i class="fa fa-minus"></i></button><button class="btn btn-primary btn-sm flex-fill ml-1" type="button"><i class="fa fa-plus"></i></button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><script id="counter-template" type="text/x-custom-template">
+    <div class="card"><img class="card-img-top w-100 d-block" />
+        <div class="card-body">
+            <h4 class="d-flex justify-content-between card-title"><span class="text-light counter-name">Poops</span><span class="text-light counter-count">48</span></h4>
+            <p class="card-text d-none">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+            <div class="d-flex"><button class="btn btn-danger btn-sm counter-delete" type="button"><i class="fa fa-trash"></i></button>
+                <div class="d-flex flex-fill justify-content-between ml-1"><button class="btn btn-secondary btn-sm text-center flex-fill counter-decrement" type="button"><i class="fa fa-minus"></i></button><button class="btn btn-primary btn-sm flex-fill ml-1 counter-increment" type="button"><i class="fa fa-plus"></i></button></div>
+            </div>
+        </div>
+    </div>
+</script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
